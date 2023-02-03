@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import css from './statistics.module.scss';
 
 function Statistics({ good, neutral, bad, total, positivePercentage }) {
