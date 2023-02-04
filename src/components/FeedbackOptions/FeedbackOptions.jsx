@@ -6,6 +6,7 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
   const elements = Object.keys(options).map(element => {
     return (
       <button
+        className={css.button}
         key={element}
         type="button"
         name={element}
